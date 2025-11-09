@@ -30,7 +30,7 @@ AD_KEYWORDS = [
 ]
 
 # Roles exempted from deletion
-EXEMPT_ROLES = ["Admin", "VIP"]  # change to your exact role names
+EXEMPT_ROLES = ["Admin"] # change to your exact role names
 
 @bot.event
 async def on_ready():
